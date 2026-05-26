@@ -1,0 +1,3 @@
+# 1Panel 推荐使用 Docker 部署
+# 在 1Panel 应用商店 -> 本地应用 -> 导入 Compose 即可
+# 直接使用根目录的 docker-compose.yml
