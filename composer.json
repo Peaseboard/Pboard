@@ -1,0 +1,25 @@
+{
+    "name": "peaseboard/pboard",
+    "type": "project",
+    "description": "Modern, Fast, Clean. Next-gen Proxy Management Panel.",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^3.2",
+        "laravel/framework": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
